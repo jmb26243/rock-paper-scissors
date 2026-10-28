@@ -45,7 +45,8 @@ Use `unit`, `integration`, and `e2e` pytest markers. Run `.venv/bin/python check
 ### Work record
 
 - Issue: https://github.com/jmb26243/rock-paper-scissors/issues/1
-- Pull request / CI: add actual URLs when they exist.
+- Pull request: https://github.com/jmb26243/rock-paper-scissors/pull/2
+- CI: https://github.com/jmb26243/rock-paper-scissors/actions/runs/40710712279/job/122894911671?pr=2 — passed.
 - Implementation: Implemented `determine_winner` in `game.py`.
 - Checks: `.venv/bin/python check.py` passed: Black, Pylint, 23 non-browser tests, and 6 Chromium browser tests.
 - Browser observation: Chose Rock against Rock; the website displayed a tie. This matches the rule that identical moves tie.
